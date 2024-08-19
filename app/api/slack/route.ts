@@ -11,7 +11,7 @@ export async function POST(request: Request) {
             'https://slack.com/api/chat.postMessage',
             {
                 channel: channel,
-                text: text || 'Hello from Next.js!', // Default to 'Hello from Next.js!' if no message is provided
+                text: text || 'Hello from Next.js!',
             },
             {
                 headers: {
